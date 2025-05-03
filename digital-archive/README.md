@@ -1,3 +1,7 @@
+# PROCESS
+Tutorial to setup react app on github pages: https://github.com/gitname/react-gh-pages?tab=readme-ov-file
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
