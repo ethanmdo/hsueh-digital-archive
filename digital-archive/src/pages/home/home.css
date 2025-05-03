@@ -1,0 +1,13 @@
+#welcome {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Cambria'
+}
+
+#blurb {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
