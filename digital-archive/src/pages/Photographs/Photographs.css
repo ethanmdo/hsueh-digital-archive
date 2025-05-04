@@ -3,7 +3,7 @@
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 16px;
     padding: 16px;
-  }
+}
   
   .image-grid img {
     width: 100%;
@@ -11,3 +11,14 @@
     object-fit: cover;
     border-radius: 8px;
   }
+
+.photo-header {
+  padding-top: 15px;
+  font-family: 'Cambria';
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.photo-header:hover {
+  text-decoration: underline;
+}

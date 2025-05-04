@@ -1,0 +1,29 @@
+#header {
+    font-family: 'Cambria';
+    font-weight: bold;
+    padding: 15px 0px;
+}
+
+.collection {
+    max-width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+.collection-title {
+    font-family: "Cambria";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.collection-image {
+    max-width: 200px;
+    border-radius: 8px;
+}
+
+.view-button {
+    font-weight: bold;
+    color: black;
+}

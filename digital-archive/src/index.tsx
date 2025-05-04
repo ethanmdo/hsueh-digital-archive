@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Photographs from './pages/Photographs/Photographs'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
