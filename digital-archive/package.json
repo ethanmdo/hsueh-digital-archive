@@ -1,7 +1,6 @@
 {
   "name": "digital-archive",
   "version": "0.1.0",
-  "homepage": "https://tablynn.github.io/hsueh-digital-archive",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
