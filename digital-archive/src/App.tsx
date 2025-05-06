@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Home from './pages/home/home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Photographs from './pages/photographs/photographs';
+import Photographs from './pages/Photographs/Photographs';
 import ThemedCollections from './pages/themedCollections/themedCollections';
 import TaiwanMilitary from './pages/taiwanMilitary/taiwanMilitary';
 

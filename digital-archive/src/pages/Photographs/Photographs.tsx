@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import "./photographs.css"; // for grid styling
+import "./Photographs.css"; // for grid styling
 import Navbar from '../../components/Navbar/Navbar'
 
 const importAll = (r: any) => r.keys().map(r);
