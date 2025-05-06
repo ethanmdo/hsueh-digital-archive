@@ -3,7 +3,8 @@ import './App.css';
 import Home from './pages/home/home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Photographs from './pages/photographs/photographs';
-import ThemedCollections from './pages/themedCollections/themedCollections'
+import ThemedCollections from './pages/themedCollections/themedCollections';
+import TaiwanMilitary from './pages/taiwanMilitary/taiwanMilitary';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path="/hsueh-digital-archive" element={<Home/>}/>
           <Route path="/photographs" element={<Photographs/>}/>
           <Route path="/themed-collections" element={<ThemedCollections/>}/>
+          <Route path="/taiwan-military" element={<TaiwanMilitary/>}/>
         </Routes>
       </BrowserRouter>
     </div>

@@ -10,6 +10,7 @@
     margin-left: auto;
     padding: 10px 10px;
     border-radius: 8px;
+    margin-bottom: 30px;
 }
 
 .collection-title {
@@ -19,11 +20,15 @@
 }
 
 .collection-image {
-    max-width: 200px;
+    max-height: 300px;
     border-radius: 8px;
 }
 
 .view-button {
     font-weight: bold;
     color: black;
+}
+
+.view-button:hover {
+    text-decoration: underline;
 }
