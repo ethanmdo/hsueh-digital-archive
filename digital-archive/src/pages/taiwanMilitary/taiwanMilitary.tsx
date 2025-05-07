@@ -39,7 +39,7 @@ function TaiwanMilitary() {
         <div className="container mt-5">
             <h1 className="header-text mb-4">Taiwan Military Collection</h1>
             <p>
-            This collection documents military life during the family's time in Taiwan, capturing moments of daily life,
+            This collection documents military life during my grandfather's time in Taiwan, capturing moments of daily life,
             training, camaraderie, and the surrounding cultural setting.
             </p>
 

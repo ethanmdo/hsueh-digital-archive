@@ -15,7 +15,13 @@ function ThemedCollections() {
         <div className="collection row bg-light">
             <div className="col-sm">
                 <h3 className="collection-title">Taiwan Military</h3>
-                <p>This collection brings together 
+                <p className="collection-text">
+                    Conscription in Taiwan is mandatory for all male citizens. My grandfather, although born in China,
+                    moved to Taiwan in middle school, and served in the military before migrating to the United States 
+                    to pursue grad school in the 60s. This was a common reality for many immigrants during this time
+                    period, where only highly skilled and educated migrants were allowed in. This collection showcases
+                    my grandfather and  other Taiwanese military men, capturing moments of daily life, training, 
+                    camaraderie, and the surrounding cultural setting. 
                 </p>
                 <p className="view-button" onClick={() => navigate('/taiwan-military')} style={{ cursor: 'pointer' }}>View Collection</p>
             </div>
@@ -27,7 +33,11 @@ function ThemedCollections() {
         <div className="collection row bg-light">
             <div className="col-sm">
                 <h3 className="collection-title">Graduations</h3>
-                <p>This collection 
+                <p className="collection-text">
+                    Graduation is a milestone for all, but certainly for immigrants who may
+                    not have the same support system in the U.S. 
+                    My grandfather was the first in my family to graduate in the U.S., but 
+                    certainly not the last. 
                 </p>
                 <p className="view-button" >View Collection</p>
             </div>
