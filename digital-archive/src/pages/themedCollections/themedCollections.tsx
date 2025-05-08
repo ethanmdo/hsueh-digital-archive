@@ -34,12 +34,15 @@ function ThemedCollections() {
             <div className="col-sm">
                 <h3 className="collection-title">Graduations</h3>
                 <p className="collection-text">
-                    Graduation is a milestone for all, but certainly for immigrants who may
-                    not have the same support system in the U.S. 
-                    My grandfather was the first in my family to graduate in the U.S., but 
-                    certainly not the last. 
+                    Graduation is a milestone for all, but certainly for immigrants who are the 
+                    first to graduate from the United States. My grandfather, who immigrated to 
+                    the U.S. to complete graduate school, did not have the same family support
+                    system in these photos as other native born Americans. My grandfather was the 
+                    first in my family to graduate in the U.S., but certainly not the last. 
+                    This collection features my aunt and my mother graduating from college as well,
+                    pictured here with their parents and friends. 
                 </p>
-                <p className="view-button" >View Collection</p>
+                <p className="view-button" onClick={() => navigate('/graduations')} style={{ cursor: 'pointer' }} >View Collection</p>
             </div>
             <div className="col-sm">
                 <img src={graduation} className="collection-image"></img>
@@ -49,9 +52,16 @@ function ThemedCollections() {
         <div className="collection row bg-light">
             <div className="col-sm">
                 <h3 className="collection-title">Family Portraits</h3>
-                <p>This collection 
+                <p className="collection-text">
+                    Family portraits in the mid 20th century were hard to come by, and each
+                    image represents key moments in time often separated by many years. 
+                    As the decades progress, these portraits are easier to take, and can capture
+                    more than just big milestones. As this collection progresses, the pictures
+                    get more frequent and more casual —- photographs no longer a rare commodity.
+                    These photos span over sixty years.
+
                 </p>
-                <p className="view-button" >View Collection</p>
+                <p className="view-button" onClick={() => navigate('/family-portraits')} style={{ cursor: 'pointer' }}>View Collection</p>
             </div>
             <div className="col-sm">
                 <img src={familyPortrait} className="collection-image"></img>
