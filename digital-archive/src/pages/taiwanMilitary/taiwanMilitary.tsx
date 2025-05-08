@@ -14,12 +14,11 @@ import image11 from "../../images/taiwan/83922822-PHO-001-0084.jpg";
 import { useState } from 'react';
 
 
-const images = [
+const collection = [
     image1, image2, image3, image4, image5, image6,
     image7, image8, image9, image10, image11
   ];
 
-// digital-archive/src/images/taiwan/83922822-PHO-001-0020.jpg and 83922822-PHO-001-0083.jpg  for family portraits
 
 
 function TaiwanMilitary() {
@@ -39,12 +38,16 @@ function TaiwanMilitary() {
         <div className="container mt-5">
             <h1 className="header-text mb-4">Taiwan Military Collection</h1>
             <p>
-            This collection documents military life during the family's time in Taiwan, capturing moments of daily life,
-            training, camaraderie, and the surrounding cultural setting.
+            Conscription in Taiwan is mandatory for all male citizens. My grandfather, although born in China,
+            moved to Taiwan in middle school, and served in the military before migrating to the United States 
+            to pursue grad school in the 60s. This was a common reality for many immigrants during this time
+            period, where only highly skilled and educated migrants were allowed in. This collection showcases
+            my grandfather and  other Taiwanese military men, capturing moments of daily life, training, 
+            camaraderie, and the surrounding cultural setting. 
             </p>
 
             <div className="row mt-4">
-                {images.map((img, idx) => (
+                {collection.map((img, idx) => (
                     <div key={idx} className="col-6 col-sm-4 col-md-3 mb-4">
                     <img
                         src={img}

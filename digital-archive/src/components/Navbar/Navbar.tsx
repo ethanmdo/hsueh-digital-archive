@@ -7,7 +7,7 @@ function Navbar() {
                 HSUEH DIGITAL ARCHIVE
             </a>
             <div className="navbar-nav">
-                <a className="nav-item nav-link active" href="/hsueh-digital-archive">Home</a>
+                <a className="nav-item nav-link active" href="/">Home</a>
                 <div className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="/Photographs">Photographs</a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -16,6 +16,7 @@ function Navbar() {
                         <a className="dropdown-item" href="/Photographs#taiwan">Taiwan</a>
                         <a className="dropdown-item" href="/Photographs#earlyUS">Early U.S.</a>
                         <a className="dropdown-item" href="/Photographs#raisingKids">Raising a Family</a>
+                        <a className="dropdown-item" href="/Photographs#nineties">90s</a>
                     </div>
                 </div>
                 <a className="nav-item nav-link" href="/themed-collections">Themed Collections</a>

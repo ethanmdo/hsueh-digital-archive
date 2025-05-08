@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import "./Photographs.css"; // for grid styling
+import "./Photographs.css"; 
 import Navbar from '../../components/Navbar/Navbar'
 
 const importAll = (r: any) => r.keys().map(r);
@@ -7,6 +7,7 @@ const importAll = (r: any) => r.keys().map(r);
 const taiwanImages = importAll(require.context("../../images/taiwan", false, /\.(png|jpe?g|svg)$/));
 const earlyUSImages = importAll(require.context("../../images/earlyUS", false, /\.(png|jpe?g|svg)$/));
 const raisingKidsImages = importAll(require.context("../../images/raisingKids", false, /\.(png|jpe?g|svg)$/));
+const ninetiesImages = importAll(require.context("../../images/90s", false, /\.(png|jpe?g|svg)$/));
 
 
 
@@ -40,6 +41,12 @@ function Photographs() {
         <h1 className="photo-header" id="raisingKids">Raising a Family</h1>
         <div className="image-grid">
             {raisingKidsImages.map((src: any, index: any) => (
+                <img key={index} src={src} alt={`img-${index}`} style={{ cursor: 'pointer', maxWidth: '200px' }} onClick={() => handleClick(src)}/>
+            ))}
+        </div>
+        <h1 className="photo-header" id="nineties">90s</h1>
+        <div className="image-grid">
+            {ninetiesImages.map((src: any, index: any) => (
                 <img key={index} src={src} alt={`img-${index}`} style={{ cursor: 'pointer', maxWidth: '200px' }} onClick={() => handleClick(src)}/>
             ))}
         </div>
